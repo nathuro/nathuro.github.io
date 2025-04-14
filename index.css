@@ -1,0 +1,353 @@
+
+/* POUR TOUT LE SITE */
+
+body {
+    overflow-x: hidden;
+    margin: auto;
+    background-color: #fffdf0;
+    Color: rgb(58, 81, 213); 
+    font-family: OpenSans;
+    
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+@font-face {
+    font-family: 'OpenSans';
+    src:url('fonts/Open_Sans/OpenSans.ttf');
+
+}
+
+@keyframes mouvement_l {
+    0% {left: 100%;}
+    100% {left: 0%;}
+}
+
+@keyframes mouvement_r {
+    0% {right: 100%;}
+    100% {right: 0%;}
+}
+
+@keyframes opacity {
+    0% {opacity: 0;}
+    100%{opacity: 1;}
+}
+
+
+/* HEADER */
+
+header {
+    position: relative;
+    width: 100%;
+    background-color: #e8a57b;
+    animation: opacity 3s;
+
+}
+
+
+header img {
+    height: 60px;
+    position: relative;
+    animation: opacity 6s;
+}
+
+
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5%;
+}
+
+
+.header p {
+    font-size: large;
+    text-decoration: overline;
+
+}
+
+.header p:hover {
+    text-shadow: 5px 10px 10px black;
+
+}
+
+
+/* SECTIONS */
+
+#bio {
+    margin: auto;
+    color: black;
+    text-align: center;
+}
+
+section {
+    margin: 1%;
+    padding: 1% 1%;
+}
+
+section a {
+    color: black;
+}
+
+fieldset {
+    border: solid 2px rgb(0, 0, 0, 0.3);
+    text-align: center;
+    color: black;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+}
+
+
+#compétences {
+    margin: 0;
+    text-align: left;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#compétences_cours {
+    margin: auto;
+    width: 70%;
+    text-align: left;
+    position: relative;
+    animation: mouvement_r 2s;
+    padding: 0 2%;
+    background-color: rgb(232, 165, 123, 0.2);
+    border-radius: 5px;
+}
+
+#compétences_cours img {
+    margin: 1%;
+}
+
+#compétences_cours span {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 3%;
+}
+
+
+#prix {
+    margin: auto;
+    width: 15%;
+    height: 330px;
+    text-align: center;
+    position: relative;
+    animation: mouvement_r 2s;
+    padding: 0 3%;
+    background-color: rgb(232, 165, 123, 0.2);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    
+}
+
+#prix img {
+    height: 20px;
+}
+
+.section_DevOps, .section_cybersécurité, .section_webdev, .section_extra{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section_DevOps img {
+    height: 35px;
+}
+
+.section_DevOps div {
+    display: flex;
+    align-items: center;
+
+}
+
+.section_DevOps legend {
+    text-align: center;
+}
+
+
+
+.section_webdev img {
+    height: 35px;
+}
+
+.section_webdev div {
+    display: flex;
+    align-items: center;
+}
+
+.section_webdev legend {
+    text-align: center;
+}
+
+
+
+.section_cybersécurité img {
+    height: 35px;
+}
+
+.section_cybersécurité div {
+    display: flex;
+    align-items: center;
+}
+
+.section_cybersécurité legend {
+    text-align: center;
+}
+
+
+
+.section_extra img {
+    height: 35px;
+}
+
+.section_extra div {
+    display: flex;
+    align-items: center;
+}
+
+.section_extra legend {
+    text-align: center;
+}
+
+
+#réalisations {
+    margin: auto;
+    width: 85%;
+    text-align: right;
+    position: relative;
+    animation: mouvement_l 2s;
+    padding: 0 2%;
+    background-color: rgb(232, 165, 123, 0.2);
+    border-radius: 5px;
+}
+
+.section_sitesVitrines, .section_Ecobox, .section_Ewc {
+    color: black;
+    text-align: center;
+}
+
+.section_sitesVitrines img {
+    height: 130px;
+
+}
+
+.section_Ecobox img {
+    height: 165px;
+    margin: 1%;
+    
+}
+
+.section_Ecobox video {
+    height: 220px;
+    margin: 1%;
+    
+}
+
+.section_Ewc {
+    display: flex;
+    justify-content: space-around;
+}
+.section_Ewc div {
+    margin: 0;
+}
+
+.section_Ewc img {
+    height: 200px;
+    text-align: center;
+
+
+}
+
+
+#Hobbies div {
+    padding: 1% 2%;
+    border-radius: 5px;
+    background-color: rgb(232, 165, 123, 0.2);
+    color: black;
+}
+
+
+#Hobbies img {
+    height: 180px;
+    margin: 1%;
+}
+
+#Hobbies fieldset {
+    color: black;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.Coach_u13 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 65%;
+    margin: 1%;
+    margin-left: 5%;
+}
+
+.WebTV {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 65%;
+    margin: 1%;
+    margin-left: 30%;
+}
+
+
+/* FOOTER  */
+
+footer {
+    width: 100%;
+    background-color: rgb(232, 165, 123);
+    border-top: solid 2px black;
+    border-radius: 10px 10px 0 0;
+
+}
+
+footer img {
+    height: 50px;
+    
+}
+
+
+.liste_réseaux {
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.liste_réseaux img:hover {
+    background-color: #fffdf0;
+    border-radius: 10px;
+}
+
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    text-decoration: underline;
+    
+}
+
+
