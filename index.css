@@ -305,44 +305,21 @@ fieldset {
 
 }
 
-
-#Hobbies div {
-    padding: 1% 2%;
-    border-radius: 5px;
-    background-color: rgb(232, 165, 123, 0.2);
-    color: black;
+.section_cnergy  {
+    width: 60%;
 }
 
-
-#Hobbies img {
-    height: 180px;
-    margin: 1%;
+.section_cnergy img {
+    height: 250px;
+    margin: 10px;
 }
 
-#Hobbies fieldset {
-    color: rgb(58, 81, 213);
-    text-align: center;
-    margin-left: 40%;
-    margin-right: 40%;
-}
-
-.Coach_u13 {
+.support_cnergy {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 65%;
-    margin: 1%;
-    margin-left: 5%;
+    justify-content: center;
+
 }
 
-.WebTV {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 65%;
-    margin: 1%;
-    margin-left: 30%;
-}
 
 
 /* FOOTER  */
