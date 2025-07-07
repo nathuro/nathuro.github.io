@@ -290,8 +290,8 @@ fieldset {
 
 }
 
-.section_procom  {
-    width: 50%;
+.section_cnergy, .section_procom {
+    margin: 1%;
 }
 
 .section_procom img {
@@ -303,10 +303,6 @@ fieldset {
     display: flex;
     justify-content: center;
 
-}
-
-.section_cnergy {
-    width: 50%;
 }
 
 .section_cnergy img {
